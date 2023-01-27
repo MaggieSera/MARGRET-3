@@ -65,13 +65,17 @@ outline-style: dotted;
  <input type="radio" name="Not likely at all" />Not likely at all
 <br/>
 <H3>How easy to use is our app?</H3><br />
-<input type="radio" name="Very easy" />Very easy
+<input type="radio" name="app" value="Very easy" />
+<label for="Very easy"> Very easy</label>
 <br>
-<input type="radio" name="Easy" />Easy
+<input type="radio" name="app" value="Easy" />
+<label for="Very easy"> Very Easy</label>
 <br>
-<input type="radio" name="Uneasy" />Uneasy
+<input type="radio" name="app" value="Uneasy" />
+<label for="Uneasy"> Uneasy</label>
 <br>
- <input type="radio" name="Not easy at all" />Not easy at all
+ <input type="radio" name="app" value="Not easy at all" />
+ <label for="Not easy at all"> Not easy at all</label>
 <br>
 <H3>How satisfied are you with the following?</H3><br />
 <table border="1">
