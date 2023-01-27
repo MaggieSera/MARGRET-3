@@ -42,27 +42,37 @@ outline-style: dotted;
                 <option value="Other text">Other text</option>
               </select>
 <H3>How was your experience using our app for the first time?</H3><br />
-<input type="radio" name="Excellent" />Excellent
+<input type="radio" name="Excellent" />
+     <label for="Excellent"> Excellent</label>    
 <br>
-<input type="radio" name="Very good" />Very good
+<input type="radio" name="Very good" />
+    <label for="Very good"> Very good</label>     
 <br>
-<input type="radio" name="Neutral" />Neutral
+<input type="radio" name="Neutral" />
+     <label for="Neutral"> Neutral</label>    
 <br>
-<input type="radio" name="Bad" />Bad
+<input type="radio" name="Bad" />
+      <label for="Bad">Bad</label>   
 <br>
-<input type="radio" name="Poor" />Poor
+<input type="radio" name="Poor" />
+    <label for="Poor"> Poor</label>     
 <br>
 <H3>How likely are you to recommend our app to a friend or colleague?</H3><br />
 
-<input type="radio" name="Very likely" />Very likely
+<input type="radio" name="recommend" value="Very likely" />
+         <label for="Very likely"> Very likely</label> 
 <br>
-<input type="radio" name="Likely" />Likely 
+<input type="radio" name="recommend" value="Likely" /> 
+       <label for="Likely"> Likely</label>   
 <br>
-<input type="radio" name="Not sure" />Not sure  
+<input type="radio" name="recommend"  value="Not sure" />
+     <label for="Not sure"> Not sure</label>    
 <br>
-<input type="radio" name="Unlikely" /> Unlikely 
+<input type="radio" name="recommend"  value="Unlikely" />  
+        <label for="Unlikely"> Unlikely</label>
 <br/>
- <input type="radio" name="Not likely at all" />Not likely at all
+ <input type="radio" name="recommend" value="Not likely at all" />
+        <label for="Not likely at all"> Not likely at all</label>
 <br/>
 <H3>How easy to use is our app?</H3><br />
 <input type="radio" name="app" value="Very easy" />
