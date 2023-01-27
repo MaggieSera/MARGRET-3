@@ -42,36 +42,36 @@ outline-style: dotted;
                 <option value="Other text">Other text</option>
               </select>
 <H3>How was your experience using our app for the first time?</H3><br />
-Excellent<input type="radio" name="Excellent" />
+<input type="radio" name="Excellent" />Excellent
 <br>
-Very good<input type="radio" name="Very good" />
+<input type="radio" name="Very good" />Very good
 <br>
-Neutral<input type="radio" name="Neutral" />
+<input type="radio" name="Neutral" />Neutral
 <br>
-Bad<input type="radio" name="Bad" />
+<input type="radio" name="Bad" />Bad
 <br>
-Poor<input type="radio" name="Poor" />
+<input type="radio" name="Poor" />Poor
 <br>
 <H3>How likely are you to recommend our app to a friend or colleague?</H3><br />
 
-Very likely:<input type="radio" name="Very likely" />
+<input type="radio" name="Very likely" />Very likely
 <br>
-Likely: <input type="radio" name="Likely" />
+<input type="radio" name="Likely" />Likely 
 <br>
-Not sure : <input type="radio" name="Not sure" />
+<input type="radio" name="Not sure" />Not sure  
 <br>
-Unlikely: <input type="radio" name="Unlikely" /> 
+<input type="radio" name="Unlikely" /> Unlikely 
 <br/>
-Not likely at all: <input type="radio" name="Not likely at all" />
+ <input type="radio" name="Not likely at all" />Not likely at all
 <br/>
 <H3>How easy to use is our app?</H3><br />
-Very easy: <input type="radio" name="Very easy" />
+<input type="radio" name="Very easy" />Very easy
 <br>
-Easy: <input type="radio" name="Easy" />
+<input type="radio" name="Easy" />Easy
 <br>
-Uneasy: <input type="radio" name="Uneasy" />
+<input type="radio" name="Uneasy" />Uneasy
 <br>
-Not easy at all: <input type="radio" name="Not easy at all" />
+ <input type="radio" name="Not easy at all" />Not easy at all
 <br>
 <H3>How satisfied are you with the following?</H3><br />
 <table border="1">
@@ -131,7 +131,12 @@ Not easy at all: <input type="radio" name="Not easy at all" />
 <textarea name="border-radius:10px" rows="20" cols="100"></textarea>
 <H3>Rate our app</H3><br />
 <p style="font-size:48px">
-    &#128512; &#128516; &#128525; &#128151;
+   <tr>
+        <td><input type="radio"> &#128512;</td>
+        <td><input type="radio">&#128516;</td>
+        <td><input type="radio">&#128525;</td>
+        <td><input type="radio">&#128151;</td>
+       </tr> 
     </p>
     <input type="submit" value="Submit">
       </center>
