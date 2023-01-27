@@ -139,10 +139,10 @@ outline-style: dotted;
     </tr>
 </table>
 <H3>What feature do you like most?</H3><br />
-<textarea name="border-radius:10px" rows="20" cols="100"></textarea><br />
+<textarea name="feature" rows="20" cols="100"></textarea><br />
 <br />
 <H3>What would you like us to improve</H3><br />
-<textarea name="border-radius:10px" rows="20" cols="100"></textarea>
+<textarea name="improve" rows="20" cols="100"></textarea>
 <H3>Rate our app</H3><br />
 <p style="font-size:48px">
     &#128512;
