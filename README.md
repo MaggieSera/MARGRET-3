@@ -145,7 +145,7 @@ outline-style: dotted;
 <textarea name="bio" rows="20" ></textarea>
 <H3>Rate our app</H3><br />
 <p style="font-size:48px">
-    &#128512;
+        &#128512;
         &#128516;
         &#128525;
         &#128151;
