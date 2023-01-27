@@ -42,38 +42,37 @@ outline-style: dotted;
                 <option value="Other text">Other text</option>
               </select>
 <H3>How was your experience using our app for the first time?</H3><br />
-<input type="radio" id="Excellent" name="Excellent" value="Excellent">
-<label for="Excellent">Excellent</label><br>
-<input type="radio" id="Very good" name="Very good" value="Very good">
-<label for="Very good">Very good</label><br>
-<input type="radio" id="Neutral" name="Neutral" value="Neutral">
-<label for="Neutral">Neutral</label><br>
-<input type="radio" id="Bad" name="Bad" value="Bad">
-<label for="Bad">Bad</label><br>
-<input type="radio" id="Poor" name="Poor" value="Poor">
-<label for="Poor">Poor</label><br>
+Excellent<input type="radio" name="Excellent" />
+<br>
+Very good<input type="radio" name="Very good" />
+<br>
+Neutral<input type="radio" name="Neutral" />
+<br>
+Bad<input type="radio" name="Bad" />
+<br>
+Poor<input type="radio" name="Poor" />
+<br>
 <H3>How likely are you to recommend our app to a friend or colleague?</H3><br />
-<input type="radio" id="Very likely" name="Very likely" value="Very likely">
-<label for="Very likely">Very likely</label><br>
-<input type="radio" id="Likely" name="Likely" value="Likely">
-<label for="Likely">Likely</label><br>
-<input type="radio" id="Not sure" name="Not sure" value="Not sure">
-<label for="Not sure">Not sure</label><br>
-<input type="radio" id="Unlikely" name="Unlikely" value="Unlikely">
-<label for="Unlikely">Unlikely</label><br>
-<input type="radio" id="Not likely at all" name="Not likely at all" value="Not likely at all">
-<label for="Not likely at all">Not likely at all</label><br>
+
+Very likely:<input type="radio" name="Very likely" />
+<br>
+Likely: <input type="radio" name="Likely" />
+<br>
+Not sure : <input type="radio" name="Not sure" />
+<br>
+Unlikely: <input type="radio" name="Unlikely" /> 
+<br/>
+Not likely at all: <input type="radio" name="Not likely at all" />
+<br/>
 <H3>How easy to use is our app?</H3><br />
-<input type="radio" id="Very easy" name="Very easy" value="Very easy">
-<label for="Very easy">Very easy</label><br>
-<input type="radio" id="Easy" name="Easy" value="Easy">
-<label for="Easy">Easy</label><br>
-<input type="radio" id="Somewhat easy" name="Somewhat easy" value="Somewhat easy">
-<label for="Somewhat easy">Somewhat easy</label><br>
-<input type="radio" id="Uneasy" name="Uneasy" value="Uneasy">
-<label for="Uneasy">Uneasy</label><br>
-<input type="radio" id="Not easy at all" name="Not easy at all" value="Not easy at all">
-<label for="Not easy at all">Not easy at all</label><br>
+Very easy: <input type="radio" name="Very easy" />
+<br>
+Easy: <input type="radio" name="Easy" />
+<br>
+Uneasy: <input type="radio" name="Uneasy" />
+<br>
+Not easy at all: <input type="radio" name="Not easy at all" />
+<br>
 <H3>How satisfied are you with the following?</H3><br />
 <table border="1">
     <tr>
@@ -126,10 +125,10 @@ outline-style: dotted;
     </tr>
 </table>
 <H3>What feature do you like most?</H3><br />
-<textarea style="border-radius:10px" rows="20" cols="100"></textarea><br />
+<textarea name="border-radius:10px" rows="20" cols="100"></textarea><br />
 <br />
 <H3>What would you like us to improve</H3><br />
-<textarea style="border-radius:10px" rows="20" cols="100"></textarea>
+<textarea name="border-radius:10px" rows="20" cols="100"></textarea>
 <H3>Rate our app</H3><br />
 <p style="font-size:48px">
     &#128512; &#128516; &#128525; &#128151;
