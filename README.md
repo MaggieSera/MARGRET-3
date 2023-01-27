@@ -42,19 +42,19 @@ outline-style: dotted;
                 <option value="Other text">Other text</option>
               </select>
 <H3>How was your experience using our app for the first time?</H3><br />
-<input type="radio" name="Excellent" />
+<input type="radio" name="first" value="Ecellent" />
      <label for="Excellent"> Excellent</label>    
 <br>
-<input type="radio" name="Very good" />
+<input type="radio" name="first" value="Very good" />
     <label for="Very good"> Very good</label>     
 <br>
-<input type="radio" name="Neutral" />
+<input type="radio" name="first" value="Neutral" />
      <label for="Neutral"> Neutral</label>    
 <br>
-<input type="radio" name="Bad" />
+<input type="radio" name="first" value="Bad" />
       <label for="Bad">Bad</label>   
 <br>
-<input type="radio" name="Poor" />
+<input type="radio" name="first" value="Poor" />
     <label for="Poor"> Poor</label>     
 <br>
 <H3>How likely are you to recommend our app to a friend or colleague?</H3><br />
@@ -99,43 +99,43 @@ outline-style: dotted;
     </tr>
     <tr>
         <td>Quality of app</td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
+        <td><input type="radio" name="app" /></td>
+        <td><input type="radio" name="app" /></td>
+        <td><input type="radio" name="app" /></td>
+        <td><input type="radio" name="app" /></td>
+        <td><input type="radio" name="app" /></td>
     </tr>
     <tr>
         <td>User-friendliness</td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
+        <td><input type="radio" name="friendliness" /></td>
+        <td><input type="radio" name="friendliness" /></td>
+        <td><input type="radio" name="friendliness" /></td>
+        <td><input type="radio" name="friendliness" /></td>
+        <td><input type="radio" name="friendliness" /></td>
     </tr>
     <tr>
         <td>Ease of use</td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
+        <td><input type="radio" name="use" /></td>
+        <td><input type="radio" name="use" /></td>
+        <td><input type="radio" name="use" /></td>
+        <td><input type="radio" name="use" /></td>
+        <td><input type="radio" name="use" /></td>
     </tr>
     <tr>
         <td>Payment process</td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
+        <td><input type="radio" name="process" /></td>
+        <td><input type="radio" name="process" /></td>
+        <td><input type="radio" name="process" /></td>
+        <td><input type="radio" name="process" /></td>
+        <td><input type="radio" name="process" /></td>
     </tr>
     <tr>
         <td>Customer service</td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
-        <td><input type="radio"></td>
+        <td><input type="radio" name="service" /></td>
+        <td><input type="radio" name="service" /></td>
+        <td><input type="radio" name="service" /></td>
+        <td><input type="radio" name="service" /></td>
+        <td><input type="radio" name="service" /></td>
     </tr>
 </table>
 <H3>What feature do you like most?</H3><br />
@@ -145,11 +145,10 @@ outline-style: dotted;
 <textarea name="border-radius:10px" rows="20" cols="100"></textarea>
 <H3>Rate our app</H3><br />
 <p style="font-size:48px">
-   <tr>
-        <td><input type="radio"> &#128512;</td>
-        <td><input type="radio">&#128516;</td>
-        <td><input type="radio">&#128525;</td>
-        <td><input type="radio">&#128151;</td>
+    &#128512;
+        &#128516;
+        &#128525;
+        &#128151;
        </tr> 
     </p>
     <input type="submit" value="Submit">
